@@ -76,22 +76,22 @@ body {
 .sidebar li img {
   border-radius: 50%;
   width: 100%;
-  grid-row: span 2;
+  grid-row: 1 / 3;
 }
 
 .sidebar li h3 {
-  grid-row: 1;
-  grid-column: 2;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
 }
 
 .sidebar li p {
-  grid-row: 2;
-  grid-column: 2;
+  grid-row: 2 / 3;
+  grid-column: 2 /3;
 }
 
 .sidebar li .button {
-  grid-row: span 2;
-  grid-column: 3;
+  grid-row: 1 / 3;
+  grid-column: 3 / 4;
 }
 
 .sidebar > .button {
